@@ -117,6 +117,7 @@ begin
               assert w_seg = x"6" report "bad sum" severity error;
 		 sw <= x"F"; wait for 10 ns;
               assert w_seg = x"E" report "bad sum" severity error;
+        -- assert statements complete
                  		
 		wait; -- wait forever
 	end process;	
